@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html ng-app="notification">
+    <head>
+        <link rel="stylesheet" type="text/css" href="/static/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="/static/css/notifications.css">
+        
+    </head>
+    <body>
+        <header class="banner navbar navbar-inverse navbar-static-top" role="banner">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand hidden-xs" href="/main/"></a>
+                <a class="navbar-brand hidden-sm hidden-md hidden-lg"></a>
+            </div>
+            <nav class="navbar-collapse collapse navbar-right" role="navigation" style="height: 1px;">
+            <ul id="menu-primary-navigation" class="nav navbar-nav">
+                <span ng-controller="NotificationList as Notifications">
+                <notifications-list></notifications-list>
+                </span>
+            </ul>
+            </nav>
+        </div>
+    </header>
+        <script type="text/javascript" src="/static/js/jquery-1.11.1.min.js"></script>
+        <script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="/static/js/angular.js"></script>
+        <script type="text/javascript" src="/static/js/app.js"></script>
+    </body>
+</html>
