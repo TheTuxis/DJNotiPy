@@ -1,0 +1,238 @@
+.navbar-inverse .navbar-nav > span > notifications-list > li > a {
+    color: #777;
+    text-decoration: none;
+}
+@media (min-width: 768px)
+.navbar-nav > span > notifications-list > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navbar-nav> span > notifications-list > li>a {
+padding-top: 10px;
+padding-bottom: 10px;
+line-height: 20px;
+}
+.nav> span > notifications-list > li>a {
+position: relative;
+display: block;
+padding: 10px 15px;
+}
+a {
+color: #428bca;
+text-decoration: none;
+}
+a {
+background: 0 0;
+}
+* {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+user agent stylesheeta:-webkit-any-link {
+color: -webkit-link;
+text-decoration: underline;
+cursor: auto;
+}
+Pseudo ::before element
+:before, :after {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+Pseudo ::after element
+:before, :after {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+Inherited from li.dropdown.ng-scope
+user agent stylesheetli {
+display: list-item;
+text-align: -webkit-match-parent;
+}
+Inherited from ul#menu-primary-navigation.nav.navbar-nav
+.nav {
+padding-left: 0;
+margin-bottom: 0;
+list-style: none;
+}
+user agent stylesheetul, menu, dir {
+display: block;
+list-style-type: disc;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 40px;
+}
+Inherited from body
+body {
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 14px;
+line-height: 1.42857143;
+color: #333;
+background-color: #fff;
+}
+Inherited from html.ng-scope
+html {
+font-size: 10px;
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+font-family: sans-serif;
+-webkit-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+}
+
+
+.navbar-nav> span > notifications-list > li>.dropdown-menu {
+margin-top: 0;
+border-top-left-radius: 0;
+border-top-right-radius: 0;
+}
+@media (min-width: 768px)
+.navbar-right .dropdown-menu {
+right: 0;
+left: auto;
+}
+.open>.dropdown-menu {
+display: block;
+}
+.dropdown-menu {
+position: absolute;
+top: 100%;
+left: 0;
+z-index: 1000;
+display: none;
+float: left;
+min-width: 160px;
+padding: 5px 0;
+margin: 2px 0 0;
+font-size: 14px;
+text-align: left;
+list-style: none;
+background-color: #fff;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+border: 1px solid #ccc;
+border: 1px solid rgba(0,0,0,.15);
+border-radius: 4px;
+-webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+ul ul, ol ul, ul ol, ol ol {
+margin-bottom: 0;
+}
+ul, ol {
+margin-top: 0;
+margin-bottom: 10px;
+}
+* {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+* {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+user agent stylesheetol ul, ul ol, ul ul, ol ol {
+-webkit-margin-before: 0px;
+-webkit-margin-after: 0px;
+}
+user agent stylesheetul ul, ol ul {
+list-style-type: circle;
+}
+user agent stylesheetul, menu, dir {
+display: block;
+list-style-type: disc;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 40px;
+}
+Pseudo ::before element
+:before, :after {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+Pseudo ::after element
+Pseudo ::after element :before, :after {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+Pseudo ::before element :before, :after {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+:before, :after {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+Inherited from li.dropdown.open
+user agent stylesheetli {
+display: list-item;
+text-align: -webkit-match-parent;
+}
+Inherited from ul#menu-primary-navigation.nav.navbar-nav
+.nav {
+padding-left: 0;
+margin-bottom: 0;
+list-style: none;
+}
+user agent stylesheetul, menu, dir {
+display: block;
+list-style-type: disc;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 40px;
+}
+Inherited from body
+body {
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 14px;
+line-height: 1.42857143;
+color: #333;
+background-color: #fff;
+}
+Inherited from html.ng-scope
+html {
+font-family: sans-serif;
+-webkit-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+}
+html {
+font-size: 10px;
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+font-family: sans-serif;
+-webkit-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+}
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus{
+    background-color: #000;
+    color: #ffffff;
+}
+
+.dropdown-menu > div >li > a {
+display: block;
+padding: 3px 20px;
+clear: both;
+font-weight: normal;
+line-height: 1.428571429;
+color: #333333;
+white-space: nowrap;
+}
+.ntf_readed{
+    background-color: #DDD;
+}
